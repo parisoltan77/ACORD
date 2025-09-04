@@ -1,3 +1,3 @@
-# ACORD
-
 # ACORD: ANOVA Context Aware Relation Extraction from Textual Data
+
+Relation extraction in textual data is an important task in natural language processing with diverse applications in QA systems, knowledge graph construction and text analysis. The research conducted in this area is categorized into rule-based methods, machine learning methods and deep learning methods. However, to the best of our knowledge, none of the existing models have considered context-awareness in relation extraction. In this paper, we propose a method called **ACORD**, which first attempts to identify the context using ANOVA measure and second utilizes identified context to determine the relationship between two entities in a text through an ensemble learning model. The evaluation results demonstrate that **ACORD** achieves a precision of **88%** in determining the correct relationship. Moreover, the non-numerical interpretation of the results allows for the identification of the most discriminative terms for each class.
